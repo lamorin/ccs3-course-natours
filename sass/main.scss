@@ -7,8 +7,6 @@
 @import "base/typography";
 @import "base/utilities";
 
-@import "layout/grid";
-
 @import "components/bg-video";
 @import "components/button.scss";
 @import "components/card";
@@ -17,6 +15,8 @@
 @import "components/form.scss";
 @import "components/story";
 
+@import "layout/grid";
 @import "layout/header.scss";
+@import "layout/footer";
 
 @import "pages/home";
