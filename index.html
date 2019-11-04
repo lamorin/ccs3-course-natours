@@ -138,7 +138,7 @@
             </div>
         </section>
 
-        <section class="section-tours">
+        <section class="section-tours" id="section-tours">
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
                     Most popular tours
@@ -169,7 +169,7 @@
                                 <div class="card__price--box">
                                     <p class="card__price-only">Only</p>
                                     <p class="card__price-value">$297</p>
-                                    <a href="#" class="btn btn--white">Book Now</a>
+                                    <a href="#popup" class="btn btn--white">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -193,6 +193,7 @@
                         <div class="card__side card__side--back card__side--back-3">
                             Back
                         </div>
+                        
                     </div>
                 </div>
             </div>
@@ -331,13 +332,14 @@
         </div>
     </footer>
 
-    <div class="popup">
+    <div class="popup" id="popup">
         <div class="popup__content">
             <div class="popup__left">
                 <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img">
                 <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img">
             </div>
             <div class="popup__right">
+                <a href="#section-tours" class="popup__close">&times;</a>
                 <h2 class="heading-secondary">Start booking now</h2>
                 <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; please read these terms before
                     booking</h3>
