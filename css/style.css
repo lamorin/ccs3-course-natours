@@ -13,6 +13,8 @@ $breakpoint argument choices:
 - tab-land
 - big-desktop
 
+ORDER: Base + typography > general layout + grid > page layout > components
+
 1em 16px
 */
 @keyframes moveInLeft {
@@ -57,15 +59,18 @@ html {
     font-size: 50%;
   }
   */ }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
   @media (max-width: 75em) {
     html {
       font-size: 56.25%; } }
   @media (max-width: 56.25em) {
     html {
       font-size: 50%; } }
-  @media (min-width: 112.5em) {
+  @media (max-width: 37.5em) {
     html {
-      font-size: 75%; } }
+      font-size: 40%; } }
 
 body {
   box-sizing: border-box; }
