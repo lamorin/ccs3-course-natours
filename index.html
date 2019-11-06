@@ -193,7 +193,7 @@
                         <div class="card__side card__side--back card__side--back-3">
                             Back
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -307,7 +307,15 @@
 
     <footer class="footer">
         <div class="footer__logo-box">
-            <img src="img/logo-green-2x.png" alt="Full logo" class="footer__logo">
+
+            <picture class="footer__logo">
+                <source srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x"
+                    media="(max-width: 37.5em">
+                <img srcset="img/logo-green-1x.png 1x,img/logo-green-2x.png 2x" alt="Full logo" class="footer__logo">
+            </picture>
+
+
+
         </div>
         <div class="row">
             <div class="col-1-of-2">
